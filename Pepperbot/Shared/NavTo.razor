@@ -1,0 +1,15 @@
+﻿@inject NavigationManager NavManager
+
+<h1 class="title text-6xl font-bold">Redirect Page</h1>
+
+<p class="text-4xl font-bold">Redirecting to <a href=@URL>@URL</a></p>
+
+@code {
+    [Parameter]
+    public string? URL { get; set; }
+
+    protected override void OnInitialized()
+    {
+        NavManager.NavigateTo(URL);
+    }
+}

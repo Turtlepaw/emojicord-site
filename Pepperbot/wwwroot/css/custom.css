@@ -1,14 +1,14 @@
 ﻿head, body {
-    background-color: #3A3C41;
+    background-color: #36393f;
 }
 
 a {
-    color: #5865f2;
+    color: #63ADF1;
     text-decoration: none;
 }
 
 a:hover {
-    color: #5865f2;
+    color: #63ADF1;
     text-decoration: underline;
 }
 

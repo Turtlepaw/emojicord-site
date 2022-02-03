@@ -1,0 +1,13 @@
+﻿<div class="featureCard">
+    <div class="title text-3xl font-bold">@Title</div>
+    <br />
+    <div class="non-important">@Description</div>
+</div>
+
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public string? Description { get; set; }
+}
