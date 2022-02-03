@@ -1,0 +1,65 @@
+.title {
+    font-family: uni_sansheavy_caps, sans-serif;
+    color: white;
+}
+
+.featureCard {
+    background-color: #2f3136;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: start;
+}
+
+.featureMain {
+    position: relative;
+    padding: 60px 40px 80px;
+}
+
+.featureContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+}
+
+.featureCards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 16px;
+    margin-bottom: 32px;
+}
+
+.navigation {
+    /* width: 90%; */
+    max-width: 60m;
+    height: 6rem;
+    margin: auto;
+}
+
+.link {
+    color: #5865f2;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #5865f2;
+    text-decoration: underline;
+}
+
+.non-important {
+    color: #CCCCCD !important;
+}
+
+@font-face {
+    font-family: 'uni_sansheavy_caps';
+    src: url('UniSansHeavyCAPS.woff2') format("woff2"), url('UniSansHeavyCAPS.woff') format('woff'), url('UniSansHeavyCAPS.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
